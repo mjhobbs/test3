@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Framework">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="UI Classes">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Maths">
+      <UniqueIdentifier>{bb3ebe13-b216-4777-8db9-f4fea701abdf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application">
+      <UniqueIdentifier>{0b2e5988-b761-400f-8f4e-c9378b95feb0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\math\calc.h">
+      <Filter>Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="include\math\linear.h">
+      <Filter>Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="include\math\math_t.h">
+      <Filter>Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="include\math\matrix_t.h">
+      <Filter>Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="include\math\point_t.h">
+      <Filter>Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="include\math\transform.h">
+      <Filter>Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="include\math\tuple_t.h">
+      <Filter>Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="include\math\vector_t.h">
+      <Filter>Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="include\physics\frame.h">
+      <Filter>Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ui\Canvas.h">
+      <Filter>UI Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ui\InputState.h">
+      <Filter>UI Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ui\Texture.h">
+      <Filter>UI Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ui\WinCanvas.h">
+      <Filter>UI Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ui\WinTexture.h">
+      <Filter>UI Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="include\math\Geometry.h">
+      <Filter>Maths</Filter>
+    </ClInclude>
+    <ClInclude Include="Header.h">
+      <Filter>UI Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Tank.h">
+      <Filter>Application</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source\demo.cpp">
+      <Filter>Application</Filter>
+    </ClCompile>
+    <ClCompile Include="source\WinCanvas.cpp">
+      <Filter>UI Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Geometry.cpp">
+      <Filter>Maths</Filter>
+    </ClCompile>
+    <ClCompile Include="source\WinTexture.cpp">
+      <Filter>UI Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="source\InputState.cpp">
+      <Filter>UI Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Tank.cpp">
+      <Filter>Application</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
